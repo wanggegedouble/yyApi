@@ -1,0 +1,29 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: yyApi-gateway
+  main:
+    web-application-type: reactive
+  cloud:
+    gateway:
+      routes:
+        - id: api_route1
+          uri: http://localhost:8123
+          predicates:
+            - Path=/name/**
+        - id: api_route2
+          uri: https://api.seniverse.com
+          predicates:
+            - Path=/v3/**
+            - Path=/v4/**
+
+dubbo:
+  application:
+    name: yyApi-backend-gateway-custom
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: nacos://localhost:8848
+    id: nacos-registry

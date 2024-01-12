@@ -1,0 +1,95 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="AutoCloseableResource" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="METHOD_MATCHER_CONFIG" value="java.util.Formatter,format,java.io.Writer,append,com.google.common.base.Preconditions,checkNotNull,org.hibernate.Session,close,java.io.PrintWriter,printf,java.io.PrintStream,printf,cn.hutool.http.HttpRequest,execute" />
+    </inspection_tool>
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="50" name="Java" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="JavadocDeclaration" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ADDITIONAL_TAGS" value="Author:,CreateTime:,Description:,Version:,description,createDate,Entity,param:,return:" />
+    </inspection_tool>
+    <inspection_tool class="MavenPackageUpdate" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="excludeList">
+        <list>
+          <option value="org.apache.dubbo:dubbo" />
+          <option value="org.springframework.boot:spring-boot-starter-web" />
+          <option value="org.springframework.boot:spring-boot-configuration-processor" />
+          <option value="org.apache.tomcat.embed:tomcat-embed-core" />
+          <option value="com.alibaba.nacos:nacos-client" />
+          <option value="com.baomidou:mybatis-plus-boot-starter" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SerializableHasSerialVersionUIDField" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="yyApi-backend" />
+          <option value="yyApi" />
+          <option value="yyApi-common" />
+          <option value="yyApi-interface" />
+          <option value="yyApi-backend" />
+          <option value="yyApi-backend" />
+          <option value="yyApi-backend" />
+          <option value="yyApi-backend" />
+          <option value="yyApi-backend" />
+          <option value="yyApi-gateway" />
+          <option value="yyApi-backend" />
+          <option value="yyApi" />
+          <option value="yyApi-common" />
+          <option value="yyApi-gateway" />
+          <option value="yyApi-gateway" />
+          <option value="yyApi-backend" />
+          <option value="yyApi-client-sdk" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="org.yaml:snakeyaml:1.33" />
+          <option value="org.yaml:snakeyaml:1.33" />
+          <option value="org.yaml:snakeyaml:1.33" />
+          <option value="org.yaml:snakeyaml:1.33" />
+          <option value="com.google.guava:guava:20.0" />
+          <option value="io.netty:netty:3.10.5.Final" />
+          <option value="log4j:log4j:1.2.17" />
+          <option value="org.apache.zookeeper:zookeeper:3.5.3-beta" />
+          <option value="com.google.guava:guava:27.0.1-jre" />
+          <option value="org.yaml:snakeyaml:1.33" />
+          <option value="org.yaml:snakeyaml:1.30" />
+          <option value="org.yaml:snakeyaml:1.30" />
+          <option value="org.yaml:snakeyaml:1.30" />
+          <option value="org.yaml:snakeyaml:1.30" />
+          <option value="com.alibaba.nacos:nacos-client:2.1.0" />
+          <option value="com.alibaba.nacos:nacos-client:2.1.0" />
+          <option value="org.yaml:snakeyaml:1.30" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yyApi-backend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yyApi-client-sdk/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yyApi-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yyApi-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yyApi-interface/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
